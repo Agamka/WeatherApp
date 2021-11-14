@@ -1,0 +1,40 @@
+html,
+body {
+    height: 100%;
+}
+
+    .container-fluid {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    border-bottom: 1px solid #bfbfbf;
+    padding-bottom: 16px;
+}
+
+.separator{
+    text-align: center;
+    height: 1px;
+    width: 100%;
+    color: #bfbfbf;
+    border-bottom: 1px solid #bfbfbf;
+    margin: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.separator::before{
+    content: "or";
+    color: #ccc;
+    font-size: 19px;
+    padding: 0 15px;
+    background-color: #eee;
+}
+.bg-1 { 
+    background-color: #1abc9c; /* Green */
+    height: 100%;
+  }
