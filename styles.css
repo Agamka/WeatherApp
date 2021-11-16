@@ -10,11 +10,19 @@ body {
     align-items: center;
 }
 
+.bg-1 { 
+    background-color: #1abc9c; /* Green */
+    height: 100%;
+  }
+
 .header{
     border-bottom: 1px solid #bfbfbf;
     padding-bottom: 16px;
 }
 
+.alert{
+    display: none;
+}
 .separator{
     text-align: center;
     height: 1px;
@@ -34,7 +42,12 @@ body {
     padding: 0 15px;
     background-color: #eee;
 }
-.bg-1 { 
-    background-color: #1abc9c; /* Green */
-    height: 100%;
-  }
+
+.input-part{
+    display: none;
+}
+
+.details {
+    border-top: 1px solid #bfbfbf;
+    padding-top: 16px;
+}

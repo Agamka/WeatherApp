@@ -2,27 +2,58 @@
     <meta charset="utf-8">
     <title>Weather App</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <script src="https://kit.fontawesome.com/ce5b760ab6.js" ></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     
         <div class="container-fluid bg-1 text-center ">
-                <form class="jumbotron">
-                    <h1 class="header">Weather App</h1>
-                    <div class="form-group mx-sm-3 mb-2">
-                        <label>Enter a valid city name</label><br>
-                        <input typpe="text" id="city" placeholder="Enter city name" required class="form-control "> 
-                    </div>
-                    <div class="separator"></div>
-                    <button type="button" class="btn btn-info">Get Device Location</button>
-                </form>
+                <div class="input-part">
+                    <section class="jumbotron">
+                        <h1 class="header">Weather App</h1>
+                        <div class="form-group mx-sm-3 mb-2 ">
+                            <label class="alert alert-danger ">Please enter a valid city name</label><br>
+                            <input typpe="text" id="city" placeholder="Enter city name" required class="form-control input-part"> 
+                        </div>
+                        <div class="separator"></div>
+                        <button type="button" class="form-control btn btn-info">Get Device Location</button>
+                    </section>
+                </div>
+                <div class="weather-part">
+                    <section class="jumbotron ">
+                        <h1 class="fas fa-arrow-left header">Weather App</h1><br>
+                        <img src="" alt="Weather Icon">
+                        <div class="temp">
+                            <span class="number">13</span>
+                            <span class="deg">°C</span>
+                        </div>
+                        <div class="weather">Clouds</div>
+                        <div class="location">
+                            <i class="glyphicon glyphicon-map-marker"></i>
+                            <p>Katmandu</p>
+                        </div>
+                        <div class="details">
+                            <div class="temp">
+                                <i class="fas fa-thermometer-half"></i>
+                                <p class="feels-like">Feels like</p>
+                                <p class="degree">°C</p>
+                            </div>
+                            <div class="column humidity">
+                                <i class="fas fa-tint"></i>
+                                <p class="number">85%</p>
+                                <p>Humidity</p>
+                            </div>
+                        </div>
+    
+    
+    
+                    </section>
+                </div>
+                
            
         </div>
    
